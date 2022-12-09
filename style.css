@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: purple;
+}
+ul li{
+    list-style: none;
+}
+a{
+    background: black;
+    color: inherit;
+    text-decoration: none;
+}
+.app{
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+.header{
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.header__nav{
+    display: flex;
+}
+.header__nav-item{
+    background: black;
+    padding: 14px 32px;
+}
+.header__nav-item:hover {
+    background-color: #ccc;
+    color: black;
+}
+.header__search{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+}
+.header__search:hover {
+    background-color: #f44336;
+}
+.container{
+    width: 800px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: purple;
+}
+.slider{
+    display: flex;
+    background-color: purple;
+}
+.item{
+    height: 500px;
+    min-width: 800px;
+    background-color: purple;
+}
+button{
+    margin: 0 252px;
+    background: white;
+    padding: 0 5% ;
+}
+.information{
+    padding: 0 20%;
+    box-sizing: border-box;
+    color: white;
+    margin: 30px;
+    background-color: purple;
+}
+.title{
+    text-align: center;
+}
+.slogan{
+    text-align: center;
+}
+.pictures{
+    text-align: center;
+    padding: 0 0px;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+}
+.Date{
+    padding: 100px;
+    margin: 0 -120px;
+    background-color: black;
+}
+.costume{
+    padding: 100px;
+    margin: 0 -100px;
+    background-color: black;
+}
+.trick-or-treat{
+        padding: 100px;
+    background-color: black;
+}
+.wide{
+    text-align: center;
+    background-color: white;
+}
+.contact{
+    background: white;
+    padding-left: 100px;
+}
+form {
+    box-sizing: border-box;
+    width: 260px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    border-radius: 3px;
+    background-color: white;
+}
+input {
+    margin: 10px;
+    width: 300px;
+    border: solid 2px grey;
+    padding: 8px 0;
+    background: linear-gradient(
+        to bottom,
+        rgba (255, 255, 255, 0) 96%,
+        white 4%
+    );
+    background-position: -200px 0;
+    background-size: 200px 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    color: black;
+}
+.send {
+    border: solid 2px black;
+    background: white;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px;
+    width: 200px;
+    color: black;
+    margin-left: 25px;
+}
